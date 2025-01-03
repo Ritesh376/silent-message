@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="head">
+        <h1>Messanger</h1>
+    </div>
+    <form action="https://api.web3forms.com/submit" method="POST">
+        <div class="form-content">
+            <input type="hidden" name="access_key" value="2b3ad670-88c3-4fc8-ac74-8664973c45d8">
+            <h1>Message Me</h1>
+
+            <div class="name">
+                <input type="text" name="name" placeholder="Your Name" required>
+            </div>
+
+            <div class="email">
+                <input type="email" name="email" placeholder="Your email" required>
+            </div>
+
+            <div class="msg">
+                <textarea name="message" placeholder="Your Message" required></textarea>
+            </div>
+
+            <div class="submit">
+                <button type="submit">Submit</button>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+            integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="script.js"></script>
+    </form>
+</body>
+
+</html>
